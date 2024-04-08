@@ -1,0 +1,33 @@
+// Стили footer
+
+.footer {
+    padding: 45px 0 47px 0;
+
+    // .footer__items
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+
+    // .footer__item
+
+    &__item {
+        padding: 17.5px;
+    }
+
+    // .footer__link
+
+    &__link {
+        display: inline-block;
+    }
+
+    // .footer__rights
+
+    &__rights {
+        text-align: center;
+        font-size: 14px;
+    }
+}

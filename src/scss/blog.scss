@@ -1,0 +1,85 @@
+// Стили blog
+
+.blog {
+
+    // .blog__title
+
+    &__title {
+        @media (max-width:$mobile) {
+            margin-bottom: 37px;
+        }
+    }
+
+    // .blog__posts
+
+    &__posts {}
+}
+
+.posts {
+
+    // .posts__items
+
+    &__items {}
+
+    // .posts__item
+
+    &__item {}
+
+    // .posts__body
+
+    &__body {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #E0E0E0;
+        margin-bottom: 32px;
+
+        @media (max-width:$mobile) {
+            padding-bottom: 24px;
+            margin-bottom: 18px;
+        }
+    }
+
+    // .posts__title
+
+    &__title {
+        display: inline-block;
+        font-size: 30px;
+        margin-bottom: 16px;
+
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: #e64a3e;
+        }
+
+        /*удерживает кнопку мыши на элементе*/
+        &:active {}
+
+        @media (max-width:$mobile) {
+            font-weight: 500;
+            font-size: 26px;
+        }
+    }
+
+    // .posts__info
+
+    &__info {
+        font-size: 20px;
+        margin-bottom: 17px;
+
+        @media (max-width:$mobile) {
+            font-size: 16px;
+        }
+
+        span {
+            &:not(:last-child) {
+                padding-right: 26px;
+                border-right: 1px solid #000;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    // .posts__text
+
+    &__text {}
+}
