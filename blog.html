@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240408143538">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240408143740">
     <title>Blog</title>
 </head>
 
 <body>
     <header class="header">
     <div class="header__container">
-
+        <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu"><span></span></button>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="works.html" class="menu__link">Works</a></li>
+                    <li class="menu__item"><a href="blog.html" class="menu__link">Blog</a></li>
+                    <li class="menu__item"><a href="contacts.html" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
     <main class="page">
@@ -79,10 +89,35 @@
         </section>
 
     </main>
-    <footer class="footer">
-    d3n2dboy
+    <footer class="footer __container">
+    <ul class="footer__items">
+        <li class="footer__item">
+            <a href="#" class="footer__link">
+                <picture><source srcset="img/footer/fb.webp" type="image/webp"><img src="img/footer/fb.png" alt="fb"></picture>
+            </a>
+        </li>
+
+        <li class="footer__item">
+            <a href="#" class="footer__link">
+                <picture><source srcset="img/footer/insta.webp" type="image/webp"><img src="img/footer/insta.png" alt="insta"></picture>
+            </a>
+        </li>
+
+        <li class="footer__item">
+            <a href="#" class="footer__link">
+                <picture><source srcset="img/footer/tw.webp" type="image/webp"><img src="img/footer/tw.png" alt="tw"></picture>
+            </a>
+        </li>
+
+        <li class="footer__item">
+            <a href="#" class="footer__link">
+                <picture><source srcset="img/footer/in.webp" type="image/webp"><img src="img/footer/in.png" alt="in"></picture>
+            </a>
+        </li>
+    </ul>
+    <div class="footer__rights">Copyright © 2024 All rights reserved</div>
 </footer>
-    <script src="js/app.min.js?_v=20240408143538"></script>
+    <script src="js/app.min.js?_v=20240408143740"></script>
 </body>
 
 </html>
